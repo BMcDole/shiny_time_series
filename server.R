@@ -20,6 +20,7 @@ shinyServer(function(input, output) {
 
         # draw the histogram with the specified number of bins
         hist(x, breaks = bins, col = 'darkgray', border = 'white')
+        
 
     })
 
